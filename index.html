@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Imagen y Audio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdf2e9;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .responsive-image {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+        }
+
+        .audio-player {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="audio-player">
+            <audio controls>
+                <source src="videoplayback (1).m4a" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+        
+        <img src="Untitled-1.fw.png" alt="Descripción de la imagen" class="responsive-image">
+    </div>
+
+</body>
+</html>
